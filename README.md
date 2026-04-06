@@ -66,6 +66,12 @@ cd friday
 cmake -B build
 cmake --build build
 ```
+Or
+```bash
+git clone https://github.com/Hardattsinh-Zala/friday.git
+cd friday
+./start.sh
+```
 
 ### Configure
 
@@ -77,7 +83,7 @@ export OPENROUTER_BASE_URL=https://openrouter.ai/api/v1/chat/completions
 ### Run
 
 ```bash
-./build/Debug/friday.exe -p "Your task here"
+./friday.sh -p "Your task here"
 ```
 
 ---
